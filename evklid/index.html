@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Evklid</title>
@@ -47,5 +51,34 @@
             </div>
         </div>
     </header>
+    <main class="main container">
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h2 class="hero__title">
+                        Проектные решения любой сложности
+                    </h2>
+                    <p class="hero__text">
+                        Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                    </p>
+                    <button class="hero__btn site-btn">
+                        Заказать расчет
+                    </button>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('image/low-angle-photo-of-balconies-24620151.png');"></div>
+                    <div class="swiper-slide" style='background-image:url("image/hero-pic-1920-2.png");'></div>
+                    <div class="swiper-slide" style='background-image: url("image/hero-pic-1920-3.png");'></div>
+                </div>
+                <div class="swiper-pagination">
+    
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
